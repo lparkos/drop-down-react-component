@@ -11,11 +11,28 @@ A simple reusable dropdown component
 
 ### Usage
 
-* Use this component by passing in an object as props.
+* Use this component by passing in props.
+
 ```
 <Dropdown
-  title="Select location"
-  list={this.state.location}
+  primary="This is your Title"
+  listitem={this.state. <Your Object>}
 />
 
 ```
+* The 'listitem' prop takes in an object array, and will display an 'li' per element in the array using the map function.
+
+#### Example of Object
+``
+favoritelinks: [
+      {
+        id: 'petfinder.com',
+      },
+      {
+        id: 'medium.com',
+      },
+      {
+        id: 'github.com',
+      },
+    ]
+  ```
