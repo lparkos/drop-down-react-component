@@ -23,7 +23,8 @@ A simple reusable dropdown component
 * The 'listitem' prop takes in an object array, and will display an 'li' per element in the array using the map function.
 
 #### Example of Object
-``
+
+```
 favoritelinks: [
       {
         id: 'petfinder.com',
